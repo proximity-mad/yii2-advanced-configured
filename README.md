@@ -7,9 +7,11 @@ Plantilla de yii2 advanced con yii2-admin, (yii2-user), htaccess y urlmanager co
 
 2. Ejecutar:
 
-// menu manager (optional),
-$(project root)> yii migrate --migrationPath=@mdm/admin/migrations
+/* menu manager (optional) */
 
-// class 'yii\rbac\DbManager' para rbac
-$(project root)> yii migrate --migrationPath=@yii/rbac/migrations
+    $(project root)> yii migrate --migrationPath=@mdm/admin/migrations
+
+/* class 'yii\rbac\DbManager' para rbac */
+
+    $(project root)> yii migrate --migrationPath=@yii/rbac/migrations
 
