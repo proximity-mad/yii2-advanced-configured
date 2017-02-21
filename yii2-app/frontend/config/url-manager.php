@@ -18,6 +18,8 @@ return [
         '<controller:\w+>/<id:\d+>' => '<controller>/view',
         '<controller:\w+>/<action:\w+>/<id:\d+>' => '<controller>/<action>',
         '<controller:\w+>/<action:\w+>' => '<controller>/<action>',
+        'request-password-reset' => 'site/request-password-reset',
+        'reset-password' => 'site/reset-password',
         /*
         'about' => 'site/about',
         'contact' => 'site/contact',
