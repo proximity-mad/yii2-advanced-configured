@@ -17,6 +17,9 @@ return [
             'namespace' => 'common\fixtures',
           ],
     ],
+    'modules' => [
+        'rbac' => 'dektrium\rbac\RbacConsoleModule',
+    ],
     'components' => [
         'log' => [
             'targets' => [
